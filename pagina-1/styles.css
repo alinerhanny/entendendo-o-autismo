@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+  color:#333;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  padding: 20px;
+}
+
+p {
+  margin: 16px;
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#info{
+  margin-top: 30px;
+  color: chocolate;
+}
+
+#info a {
+  text-decoration: none;
+}
+
+#info a:hover {
+  text-decoration: underline;
+}

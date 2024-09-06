@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 60px;
+  background-color: #f1d941 ;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+}
+ 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+ul a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.barra-pesquisa {
+  position: relative;
+}
+
+.barra-pesquisa input {
+padding: 15px;
+padding-left: 50px;
+border-radius: 10px;
+width: 600px;
+border: 1px;
+font-size: 16px;
+margin-top: 40px;
+}
+
+.barra-pesquisa input:hover {
+  border: 1px black solid;
+}
+
+.barra-pesquisa i {
+  position: absolute;
+  left: 20px;
+  top: 56px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+main p {
+  max-width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.resultados-pesquisa {
+  width: 600px;
+  height: 46vh;
+  overflow-y: auto;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.item-resultado {
+  background: #FFFFFF;
+  border-radius: 10px; 
+  padding: 16px; 
+  margin-bottom: 16px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-resultado h2 {
+  font-size: 24px;
+}
+
+.item-resultado a {
+  text-decoration: none;
+  color: black;
+}
+
+.item-resultado a:hover {
+  text-decoration: underline;
+  color: #737887 ;
+}
+
+.descricao {
+  margin-top: 8px 0px;
+  color: #181a20 ;
+}
+
+.arvore {
+  max-width: 100%;
+  height: 300px;
+  position: relative;
+  right: 0px;
+  bottom: 200px;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  padding-inline: 50px;
+  height: 90px;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.container-links {
+  align-self: center;
+  
+}
+
+.container-paragrafos {
+  text-align: center;
+  align-self: center;
+  flex: 1;
+}
+
+mark {
+  background-color: transparent;
+  color: #585a5f;
+  font-weight: bold;
+}
