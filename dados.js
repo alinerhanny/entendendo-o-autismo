@@ -63,5 +63,10 @@ let dados = [
     titulo: "O que é autismo?",
     descricao: "O autismo, ou Transtorno do Espectro Autista (TEA), é uma condição do neurodesenvolvimento caracterizada por dificuldades na comunicação social e comportamentos repetitivos. As manifestações variam amplamente, indo de leves a severas. O diagnóstico é geralmente feito na infância, mas pode ocorrer em qualquer idade.",
     link: "https://neuroconecta.com.br/o-que-e-o-transtorno-do-espectro-do-autismo-tea/"
+  },
+    {
+    titulo: "Quais são os diferentes tipos de autismo?",
+    descricao: "Nesse artigo você irá aprender sobre o que é a Sindrome de Asperger e também descobrir outros 3 tipos de autismo.",
+    link: "https://institutoneurosaber.com.br/artigos/quais-sao-os-tipos-de-autismo-tea-2/"
   }
 ]
