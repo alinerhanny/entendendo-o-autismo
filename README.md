@@ -2,6 +2,8 @@
 
 # Entendendo o Autismo 
 
+**Esse projeto ficou em 6° lugar na imersão dev da Alura com o Google Gemini**
+
 ## 📚 Descrição 
 Entendendo o Autismo é uma base de conhecimento criada durante a imersão dev da Alura com o Google Gemini. O projeto tem como objetivo disponibilizar informações e conscientizar sobre o autismo de forma simples e acessível. A plataforma oferece conteúdos educativos, além de respostas para perguntas frequentes e recursos úteis sobre o tema.
 
