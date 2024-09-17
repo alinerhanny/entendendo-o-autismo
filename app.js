@@ -48,7 +48,7 @@ function pesquisar(pesquisa) {
 // acionando a função 'pesquisar' quando a tecla Enter é pressionada.
 inputPesquisa.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
-    pesquisar();
+    pesquisar(inputPesquisa);
   }
 });
 
