@@ -46,9 +46,11 @@ function pesquisar(pesquisa) {
 
 // Adiciona um ouvinte de eventos para o campo de pesquisa,
 // acionando a função 'pesquisar' quando a tecla Enter é pressionada.
-inputPesquisa.addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
-    pesquisar(inputPesquisa.value);
+inputPesquisa.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") { 
+    event.preventDefault()
+    let valorBusca = event.target.value
+    pesquisar(valorBusca);
   }
 });
 
